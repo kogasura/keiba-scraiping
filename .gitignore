@@ -1,0 +1,21 @@
+# 画像・データ・ログ・一時ファイル・依存パッケージを除外
+
+ai-note-images/
+data/
+debug/
+html/
+image/
+logs/
+node_modules/
+note_images/
+temp/
+umax-data/
+
+# OS/エディタごとの一時ファイルも念のため
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp 
+
+.env

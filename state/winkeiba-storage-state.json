@@ -1,0 +1,305 @@
+{
+  "cookies": [
+    {
+      "name": "connect.sid",
+      "value": "s%3AMmd5xETUwpe5ttV7kkBfr44tSM77RHlt.4l1GKZthM9Nr%2FhjAL2KTrROm0ulDhzlmrv9qjQYOKx0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1775288455.275384,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "pay_type",
+      "value": "0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315491,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "pog_user",
+      "value": "0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.273981,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expiration_date03",
+      "value": "",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.274044,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expiration_date06",
+      "value": "",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.274058,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expiration_date12",
+      "value": "",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.274069,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DEFAULT_TOB",
+      "value": "0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.314877,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DEFAULT_RacetrackCd",
+      "value": "09",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.314969,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_address",
+      "value": "",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315442,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "join_status",
+      "value": "",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.31554,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "migrate_dialog",
+      "value": "0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315605,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "multi_dialog",
+      "value": "0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315656,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "card_dialog",
+      "value": "0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315719,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "r6_tXk5fiiG_tQZc3_zOIOo7LstWeb1U6bSDWTV6L98-1743752446-1.2.1.1-JIrbASxsP4JZLSgiJgLy34V9BVp5NxBqUIZ44ZQKQYYCJ1buSPYEh30IqGVuDgkZ2RpVQ784WE3zUmQklgS62zsZUcN3enXwQ6UAbtpEPK4SmLFAtl.kkBbL_8M5F5Aq9.gZFkwatALI0UzYLd_GpHbhsC3OjvxgWLvUeq5EehCWRQvnK9jfRmHqtt40ogkBRX7gg9eU8IsS_maA_NDPBbEXPJ5HTiEs8YvUf_pvTMlaRQKfHCN4xOZloCO8YxDluj5GLJMpi_7lCjk6bCDYeFgECS62ooSBvrakaFu.zC5pIgdIr79pUs.VPh989LFr5ywCLvrYkadS_nHZM6jVB3OL8cwccOjaY_UuONdpRdk",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1775288446.66599,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.2067984102.1743752447",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.328217,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1743753346.751962,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "user_type",
+      "value": "premium",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.193017,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "course_id",
+      "value": "3",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.193004,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user_id",
+      "value": "c312c69e-093d-4496-bd09-324a1db8f60f",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1746344455.192969,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_detail",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315043,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_jusho",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315083,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_win5",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315151,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_favorite",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315237,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_pog",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315293,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_oshirase",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315344,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mail_add",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.315394,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_0NJGSH7R0G",
+      "value": "GS1.1.1743752446.1.1.1743752455.51.0.0",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.331783,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "date_type",
+      "value": "2",
+      "domain": ".winkeiba.jp",
+      "path": "/",
+      "expires": 1778312455.338057,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLID",
+      "value": "ec0dca4e58104e3c85cc6ae1a2f66e0b.20250404.20260404",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1775288455.51348,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.winkeiba.jp",
+      "localStorage": [
+        {
+          "name": "favoriteData",
+          "value": "{\"f_breeder\":\"__\",\"f_broodmare\":\"__\",\"f_owner\":\"__\",\"f_jockey\":\"__\",\"f_racehouse\":\"__\",\"f_stallion\":\"__\",\"f_trainer\":\"__\",\"t_racehouse\":\"_2018105431_\"}"
+        }
+      ]
+    }
+  ]
+}
