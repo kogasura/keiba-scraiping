@@ -9,35 +9,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 /**
- * DeepSeek APIをテストするための関数
- * @returns APIレスポンス
- */
-// export async function testDeepSeekAPI(): Promise<string> {
-//     try {
-//         const apiKey = process.env.DEEPSEEK_API_KEY;
-
-//         if (!apiKey) {
-//             throw new Error('DEEPSEEK_API_KEYが設定されていません');
-//         }
-
-//         const openai = new OpenAI({
-//             baseURL: 'https://api.deepseek.com',
-//             apiKey: apiKey
-//         });
-
-//         const completion = await openai.chat.completions.create({
-//             messages: [{ role: "system", content: "You are a helpful assistant." }],
-//             model: "deepseek-chat",
-//         });
-
-//         return completion.choices[0].message.content || 'レスポンスが空です';
-//     } catch (error) {
-//         console.error('DeepSeek APIテスト中にエラーが発生しました:', error);
-//         return `エラー: ${error instanceof Error ? error.message : String(error)}`;
-//     }
-// }
-
-/**
  * DeepSeek R1 APIを使用して画像からテキストを抽出し、指数ランキングを取得する
  * @param imagePath 画像のパス
  * @param date 日付（YYYYMMDD形式）
@@ -89,7 +60,7 @@ export async function extractIndexRanksFromImage(
         });
 
         const response = await client.responses.create({
-            model: "gpt-4.1",
+            model: "o3",
             input: [
                 {
                     "role": "system",

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "api": "predictions",
+    "date": "2025-07-19",
+    "trackCode": "02",
+    "status": "sent",
+    "createdAt": "2025-07-18T15:42:00.000Z",
+    "updatedAt": "2025-07-18T15:42:00.000Z",
+    "dataCount": 1,
+    "version": "1.0.0"
+  },
+  "data": [
+    {
+      "date": "2025-07-19",
+      "trackCode": "02",
+      "predictions": [
+        {
+          "raceNumber": 1,
+          "win_prediction_ranks": [
+            1,
+            2,
+            3
+          ],
+          "jravan_prediction_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "cp_ranks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "data_analysis_ranks": [
+            1,
+            2,
+            3
+          ],
+          "time_ranks": [
+            1,
+            2,
+            3
+          ],
+          "last_3f_ranks": [
+            1,
+            2,
+            3
+          ],
+          "horse_trait_ranks": [
+            1,
+            2,
+            3
+          ],
+          "deviation_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": null,
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "time_index_avg_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "time_index_distance_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

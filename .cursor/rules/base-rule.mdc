@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+パッケージをインストールする際にはcontext7を毎回使用する事。

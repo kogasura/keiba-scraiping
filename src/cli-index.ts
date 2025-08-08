@@ -12,12 +12,33 @@ import { extractIndexRanksFromImage } from './note-image-ocr';
 import { fetchImagesFromNote, extractTextFromImages } from './h58_ai';
 import { UmaxScraperService } from './umax-scraper';
 import { saveUmaxPredictionsToExcel } from './umax-excel-utils';
+import { TRACK_CODES } from './consts';
 
 async function main() {
     try {
         // 処理する日付のリスト
         const dates = [
-            '20250525',
+            '20250803',
+            // '20250802',
+            // '20250727',
+            // '20250726',
+            // '20250720',
+            // '20250719',
+            // '20250713',
+            // '20250712',
+            // '20250706',
+            // '20250705',
+            // '20250629',
+            // '20250628',
+            // '20250622',
+            // '20250621',
+            // '20250615',
+            // '20250614',
+            // '20250608',
+            // '20250607',
+            // '20250601',
+            // '20250531',
+            // '20250525',
             // '20250524',
             // '20250518',
             // '20250517',
@@ -54,24 +75,24 @@ async function main() {
         
         // ここを書き換える事。
         const track_codes = [
-            '05', // 東京
-            '08', // 京都
-            '04'  // 新潟
-        ];
+                TRACK_CODES.NIIGATA, // 新潟
+                TRACK_CODES.CHUKYO,  // 中京
+                TRACK_CODES.SAPPORO, // 札幌
+            ];
 
         // 各日付に対して処理を実行
         for (const date of dates) {
             console.log(`${date} の処理を開始します...`);
             const analysis: AnalysisItem[] = [];
             await scrapeNetkeiba(date, analysis);
-            await getUmaxRacePrediction(date, analysis);
-            await scrapeWinKeiba(date, track_codes, analysis);
+            // await getUmaxRacePrediction(date, analysis);
+            // await scrapeWinKeiba(date, track_codes, analysis);
             // await getIndexRanksFromImage(analysis);
-            // await getRaceResult(analysis);
-            // await getAiPrediction(analysis, 'https://note.com/h58_ai/n/n537fa80f1d22', date, '05');
-            // await getAiPrediction(analysis, 'https://note.com/h58_ai/n/n2f3aabc55261', date, '08');
-            // await getAiPrediction(analysis, 'https://note.com/h58_ai/n/n6be9fc07c07b', date, '04');
-            saveAnalysisToExcel(analysis, `予想_${date}.xlsx`);
+            await getRaceResult(analysis);
+            // await getAiPrediction(analysis, 'https://note.com/h58_ai/n/n79e2f748e084', date, TRACK_CODES.NIIGATA);
+            // await getAiPrediction(analysis, 'https://note.com/h58_ai/n/n18fd063509a3', date, TRACK_CODES.CHUKYO);
+            // await getAiPrediction(analysis, 'https://note.com/h58_ai/n/nae78195bbfcc', date, TRACK_CODES.SAPPORO);
+            saveAnalysisToExcel(analysis, `結果_${date}.xlsx`);
             console.log(`${date} の処理が完了しました`);
         }
 
@@ -281,12 +302,12 @@ async function scrapeNetkeiba(date: string, analysis: AnalysisItem[]): Promise<A
         try {
             console.log(`${race.course} ${race.raceNumber}R (${race.race_name}) のタイム指数を取得中...`);
 
-            const timeIndexMax = await scraper.getTimeIndexMax(race.netkeiba_race_id);
-            const timeIndexAverage = await scraper.getTimeIndexAverage(race.netkeiba_race_id);
-            const timeIndexDistance = await scraper.getTimeIndexDistance(race.netkeiba_race_id);
-            const dataAnalysis = await scraper.getDataAnalysis(race.netkeiba_race_id)
-            const dataAnalysisRanking = await scraper.getDataAnalysisRanking(race.netkeiba_race_id);
-            const cpPrediction = await scraper.getCPPrediction(race.netkeiba_race_id);
+            // const timeIndexMax = await scraper.getTimeIndexMax(race.netkeiba_race_id);
+            // const timeIndexAverage = await scraper.getTimeIndexAverage(race.netkeiba_race_id);
+            // const timeIndexDistance = await scraper.getTimeIndexDistance(race.netkeiba_race_id);
+            // const dataAnalysis = await scraper.getDataAnalysis(race.netkeiba_race_id)
+            // const dataAnalysisRanking = await scraper.getDataAnalysisRanking(race.netkeiba_race_id);
+            // const cpPrediction = await scraper.getCPPrediction(race.netkeiba_race_id);
 
             // console.log('timeIndexMax', timeIndexMax);
             // console.log('timeIndexAverage', timeIndexAverage);
@@ -305,20 +326,19 @@ async function scrapeNetkeiba(date: string, analysis: AnalysisItem[]): Promise<A
                 trackCode: race.trackCode,
                 raceNumber: race.raceNumber,
                 netkeiba_race_id: race.netkeiba_race_id,
-                deviation_ranks: dataAnalysis.deviation_ranks,
-                rapid_rise_ranks: dataAnalysis.rapid_rise_ranks,
-                personal_best_ranks: dataAnalysis.personal_best_ranks,
-                popularity_risk: dataAnalysis.popularity_risk,
-                data_analysis_ranks: dataAnalysisRanking?.data_analysis_ranks,
-                cp_ranks: cpPrediction.cp_ranks,
-                time_index_max_ranks: timeIndexMax.time_index_horse_numbers,
-                time_index_avg_ranks: timeIndexAverage.time_index_horse_numbers,
-                time_index_distance_ranks: timeIndexDistance.time_index_horse_numbers
+                // deviation_ranks: dataAnalysis.deviation_ranks,
+                // rapid_rise_ranks: dataAnalysis.rapid_rise_ranks,
+                // personal_best_ranks: dataAnalysis.personal_best_ranks,
+                // popularity_risk: dataAnalysis.popularity_risk,
+                // data_analysis_ranks: dataAnalysisRanking?.data_analysis_ranks,
+                // cp_ranks: cpPrediction.cp_ranks,
+                // time_index_max_ranks: timeIndexMax.time_index_horse_numbers,
+                // time_index_avg_ranks: timeIndexAverage.time_index_horse_numbers,
+                // time_index_distance_ranks: timeIndexDistance.time_index_horse_numbers
             })
             console.log(analysis[analysis.length - 1]);
             // 連続アクセスを避けるためのランダム待機
             await randomDelay(1000, 2000);
-
         } catch (error) {
             console.error(`${race.course} ${race.raceNumber}R のタイム指数取得中にエラーが発生しました:`, error);
         }

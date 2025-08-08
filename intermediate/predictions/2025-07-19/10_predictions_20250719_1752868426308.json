@@ -1,0 +1,965 @@
+{
+  "metadata": {
+    "api": "predictions",
+    "date": "2025-07-19",
+    "trackCode": "10",
+    "createdAt": "2025-07-18T19:53:46.308Z",
+    "dataCount": 1,
+    "status": "failed",
+    "version": "1.0.0",
+    "errors": [
+      "API送信に失敗しました"
+    ]
+  },
+  "data": [
+    {
+      "date": "2025-07-19",
+      "trackCode": "10",
+      "predictions": [
+        {
+          "raceNumber": 1,
+          "win_prediction_ranks": [
+            3,
+            4,
+            9,
+            10,
+            8
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "data_analysis_ranks": [
+            1,
+            2,
+            3
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            3,
+            4,
+            9,
+            10,
+            8
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            5,
+            7
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            3,
+            1,
+            4,
+            2,
+            9
+          ],
+          "time_index_avg_ranks": [
+            3,
+            1,
+            4,
+            2,
+            9
+          ],
+          "time_index_distance_ranks": [
+            1,
+            9,
+            10,
+            2,
+            5
+          ]
+        },
+        {
+          "raceNumber": 2,
+          "win_prediction_ranks": [
+            11,
+            3,
+            9,
+            6,
+            8
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            9,
+            11,
+            5,
+            3
+          ],
+          "data_analysis_ranks": [
+            9,
+            11,
+            3
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            11,
+            3,
+            9,
+            6,
+            8
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            3,
+            7,
+            11
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            9,
+            3,
+            11,
+            4,
+            10
+          ],
+          "time_index_avg_ranks": [
+            9,
+            11,
+            3,
+            4,
+            10
+          ],
+          "time_index_distance_ranks": [
+            9,
+            11,
+            8,
+            1,
+            2
+          ]
+        },
+        {
+          "raceNumber": 3,
+          "win_prediction_ranks": [
+            2,
+            3,
+            12,
+            1,
+            18
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            10,
+            15,
+            18,
+            13
+          ],
+          "data_analysis_ranks": [
+            15,
+            12,
+            2
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            2,
+            3,
+            12,
+            1,
+            18
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            2,
+            3,
+            7,
+            9
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            15,
+            17,
+            18,
+            2,
+            5
+          ],
+          "time_index_avg_ranks": [
+            15,
+            2,
+            17,
+            6,
+            8
+          ],
+          "time_index_distance_ranks": [
+            15,
+            5,
+            12,
+            17,
+            7
+          ]
+        },
+        {
+          "raceNumber": 4,
+          "win_prediction_ranks": [
+            4,
+            13,
+            15,
+            3,
+            8
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            5,
+            9,
+            11,
+            1
+          ],
+          "data_analysis_ranks": [
+            1,
+            2,
+            12
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            4,
+            13,
+            15,
+            3,
+            8
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            5,
+            13
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            11,
+            1,
+            9,
+            13,
+            3
+          ],
+          "time_index_avg_ranks": [
+            15,
+            1,
+            9,
+            11,
+            13
+          ],
+          "time_index_distance_ranks": [
+            11,
+            9,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "raceNumber": 5,
+          "win_prediction_ranks": [
+            2,
+            4,
+            6,
+            3,
+            8
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "data_analysis_ranks": [
+            4,
+            8,
+            6
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            2,
+            4,
+            6,
+            3,
+            8
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "time_index_avg_ranks": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "time_index_distance_ranks": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "raceNumber": 6,
+          "win_prediction_ranks": [
+            6,
+            5,
+            10,
+            2,
+            15
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            10,
+            5,
+            8,
+            14
+          ],
+          "data_analysis_ranks": [
+            8,
+            14,
+            5
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            6,
+            5,
+            10,
+            2,
+            15
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            2,
+            5,
+            6,
+            9,
+            10
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            14,
+            13,
+            5,
+            15,
+            1
+          ],
+          "time_index_avg_ranks": [
+            14,
+            13,
+            8,
+            16,
+            15
+          ],
+          "time_index_distance_ranks": [
+            14,
+            5,
+            8,
+            2,
+            1
+          ]
+        },
+        {
+          "raceNumber": 7,
+          "win_prediction_ranks": [
+            2,
+            3,
+            6,
+            5,
+            9
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            1,
+            5,
+            6,
+            3
+          ],
+          "data_analysis_ranks": [
+            6,
+            1,
+            2
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            2,
+            3,
+            6,
+            5,
+            9
+          ],
+          "rapid_rise_ranks": [
+            9
+          ],
+          "personal_best_ranks": [],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            6,
+            3,
+            1,
+            5,
+            2
+          ],
+          "time_index_avg_ranks": [
+            2,
+            6,
+            5,
+            4,
+            1
+          ],
+          "time_index_distance_ranks": [
+            3,
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "raceNumber": 8,
+          "win_prediction_ranks": [
+            8,
+            9,
+            1,
+            7,
+            2
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            10,
+            9,
+            6,
+            1
+          ],
+          "data_analysis_ranks": [
+            7,
+            3,
+            9
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            8,
+            9,
+            1,
+            7,
+            2
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            9
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            9,
+            6,
+            1,
+            10,
+            2
+          ],
+          "time_index_avg_ranks": [
+            10,
+            9,
+            1,
+            3,
+            2
+          ],
+          "time_index_distance_ranks": [
+            9,
+            6,
+            5,
+            3,
+            8
+          ]
+        },
+        {
+          "raceNumber": 9,
+          "win_prediction_ranks": [
+            1,
+            2,
+            12,
+            6,
+            5
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            15,
+            1,
+            12,
+            6
+          ],
+          "data_analysis_ranks": [
+            12,
+            6,
+            1
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            1,
+            2,
+            12,
+            6,
+            5
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            2
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            1,
+            6,
+            8,
+            12,
+            13
+          ],
+          "time_index_avg_ranks": [
+            1,
+            6,
+            8,
+            12,
+            17
+          ],
+          "time_index_distance_ranks": [
+            1,
+            6,
+            8,
+            12,
+            13
+          ]
+        },
+        {
+          "raceNumber": 10,
+          "win_prediction_ranks": [
+            3,
+            16,
+            13,
+            4,
+            14
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            9,
+            3,
+            16,
+            15
+          ],
+          "data_analysis_ranks": [
+            15,
+            16,
+            1
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            3,
+            16,
+            13,
+            4,
+            14
+          ],
+          "rapid_rise_ranks": [
+            14,
+            7
+          ],
+          "personal_best_ranks": [
+            3,
+            13,
+            16
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            11,
+            15,
+            10,
+            8,
+            6
+          ],
+          "time_index_avg_ranks": [
+            10,
+            11,
+            8,
+            16,
+            3
+          ],
+          "time_index_distance_ranks": [
+            15,
+            5,
+            12,
+            16,
+            10
+          ]
+        },
+        {
+          "raceNumber": 11,
+          "win_prediction_ranks": [
+            12,
+            10,
+            6,
+            8,
+            7
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            15,
+            7,
+            14,
+            17
+          ],
+          "data_analysis_ranks": [
+            6,
+            7,
+            9
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            12,
+            10,
+            6,
+            8,
+            7
+          ],
+          "rapid_rise_ranks": [],
+          "personal_best_ranks": [
+            12
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            8,
+            4,
+            16,
+            7,
+            13
+          ],
+          "time_index_avg_ranks": [
+            5,
+            7,
+            8,
+            6,
+            4
+          ],
+          "time_index_distance_ranks": [
+            10,
+            2,
+            4,
+            8,
+            16
+          ]
+        },
+        {
+          "raceNumber": 12,
+          "win_prediction_ranks": [
+            3,
+            9,
+            15,
+            12,
+            14
+          ],
+          "jravan_prediction_ranks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "cp_ranks": [
+            3,
+            8,
+            14,
+            11
+          ],
+          "data_analysis_ranks": [
+            8,
+            11,
+            15
+          ],
+          "time_ranks": [
+            null,
+            null,
+            null
+          ],
+          "last_3f_ranks": [
+            null,
+            null,
+            null
+          ],
+          "horse_trait_ranks": [
+            null,
+            null,
+            null
+          ],
+          "deviation_ranks": [
+            3,
+            9,
+            15,
+            12,
+            14
+          ],
+          "rapid_rise_ranks": [
+            14
+          ],
+          "personal_best_ranks": [
+            9,
+            10,
+            14,
+            15
+          ],
+          "popularity_risk": null,
+          "time_index_max_ranks": [
+            1,
+            5,
+            11,
+            9,
+            10
+          ],
+          "time_index_avg_ranks": [
+            3,
+            13,
+            9,
+            6,
+            10
+          ],
+          "time_index_distance_ranks": [
+            11,
+            9,
+            1,
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ]
+}

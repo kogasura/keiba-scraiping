@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  netkeiba-scraper-v2:
+    build:
+      context: .
+      dockerfile: Dockerfile.v2
+    container_name: netkeiba-scraper-v2
+    environment:
+      # Netkeiba認証情報
+      - NETKEIBA_USERNAME=${NETKEIBA_USERNAME}
+      - NETKEIBA_PASSWORD=${NETKEIBA_PASSWORD}
+      
+      # Winkeiba認証情報（race-results用）
+      - WINKEIBA_EMAIL=${WINKEIBA_EMAIL}
+      - WINKEIBA_PASSWORD=${WINKEIBA_PASSWORD}
+      
+      # API接続設定
+      - API_BASE_URL=${API_BASE_URL:-http://localhost}
+      - API_KEY=${API_KEY}
+      
+      # OCR設定（ai-index, index-images用）
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      
+      # Playwright設定
+      - PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright
+      - NODE_ENV=${NODE_ENV:-development}
+    
+    volumes:
+      # 開発時のソースコードマウント（開発用）
+      - ./src/v2:/app/src:ro
+      - ./config:/app/config:ro
+      # node_modulesは除外してコンテナ内のものを使用
+      - /app/node_modules
+    
+    # デフォルトコマンド（実行時に引数で上書き可能）
+    command: ["npm", "run", "dev", "20250125", "--apis", "race-info", "--tracks", "10"]
+    
+    # TTYとstdinを有効化（デバッグ用）
+    stdin_open: true
+    tty: true
+    
+    # ヘルスチェック
+    healthcheck:
+      test: ["CMD", "node", "-e", "console.log('Health check OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    # リソース制限
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 1G
+          cpus: '0.5'
+    
+    # ログ設定
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+# 開発用のネットワーク（必要に応じて）
+networks:
+  default:
+    name: netkeiba-scraper-network

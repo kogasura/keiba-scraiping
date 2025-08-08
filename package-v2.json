@@ -1,0 +1,61 @@
+{
+  "name": "netkeiba-scraper-v2",
+  "version": "2.0.0",
+  "description": "netkeiba競馬データスクレイピングシステム v2 - 軽量・独立版",
+  "main": "dist/cli/main.js",
+  "bin": {
+    "netkeiba-scraper": "dist/cli/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli/main.js",
+    "dev": "ts-node src/cli/main.ts",
+    "type-check": "tsc --noEmit --skipLibCheck",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "postinstall": "npx playwright install chromium",
+    "test": "echo \"Tests not implemented yet\" && exit 0",
+    "lint": "echo \"Linter not configured\" && exit 0"
+  },
+  "keywords": [
+    "netkeiba",
+    "scraper",
+    "playwright",
+    "horse-racing",
+    "data-extraction",
+    "automation",
+    "competition-data"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/netkeiba-scraper-v2.git"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "openai": "^4.91.1",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "files": [
+    "dist/**/*",
+    "config/**/*",
+    "README.md",
+    "package.json"
+  ]
+}

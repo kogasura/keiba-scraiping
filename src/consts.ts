@@ -17,13 +17,13 @@ export const TRACK_CODES = {
 
 /* ★ ソート順を表す配列（index が小さいほど先に並ぶ） */
 export const TRACK_SORT_ORDER: readonly string[] = [
-  TRACK_CODES.KOKURA,    // 1
-  TRACK_CODES.CHUKYO,    // 2
+  TRACK_CODES.HAKODATE,  // 1
+  TRACK_CODES.KOKURA,    // 2
   TRACK_CODES.FUKUSHIMA, // 3
-  TRACK_CODES.NIIGATA,   // 4
-  TRACK_CODES.SAPPORO,   // 5
-  TRACK_CODES.HAKODATE,  // 6
-  TRACK_CODES.KYOTO,     // 7
+  TRACK_CODES.CHUKYO,    // 4
+  TRACK_CODES.NIIGATA,   // 5
+  TRACK_CODES.SAPPORO,   // 6
+  TRACK_CODES.KYOTO,     // 7/
   TRACK_CODES.HANSHIN,   // 8
   TRACK_CODES.TOKYO,     // 9
   TRACK_CODES.NAKAYAMA,  // 10

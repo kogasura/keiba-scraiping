@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(ts-node:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(npm run:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(npm run dev:*)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(powershell:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(ls:*)",
+      "Bash(npx tsc:*)",
+      "Bash(ls:*)",
+      "Bash(timeout 30 npx ts-node src/v2/cli/main.ts --api=predictions --date=20250719 --stage=scrape --tracks=02 --dry)",
+      "Bash(mkdir:*)",
+      "Bash(powershell:*)",
+      "Bash(del:*)",
+      "Bash(timeout 120 npx ts-node src/v2/cli/main.ts 20250802 --apis race-results --tracks 01)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,94 @@
+# Node.js
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Git
+.git
+.gitignore
+
+# IDEs and editors
+.vscode
+.idea
+*.swp
+*.swo
+.cursor
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+dist
+build
+*.log
+
+# Test coverage
+coverage
+.nyc_output
+
+# Temporary files
+tmp
+temp
+*.tmp
+*.temp
+
+# Debug and intermediate files
+debug/
+intermediate/
+progress.yaml
+
+# Documentation (keep only essential)
+*.md
+!README.md
+docs/
+
+# Legacy v1 files (only include v2)
+src/legacy/
+src/cli-index.ts
+src/index.ts
+src/mapper.ts
+src/prediction-scraper.ts
+src/schedule-utils.ts
+src/scraping-api-client.ts
+src/note-image-ocr.ts
+src/umax-excel-utils.ts
+src/consts.ts
+
+# Test files
+test/
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Development specific
+.claude/
+*.ipynb
+test-*.js
+
+# Scripts not needed in container
+scripts/
+
+# Config files not needed
+.eslintrc*
+.prettierrc*
+jest.config.*
+.husky/
+
+# Docker files (avoid recursion)
+Dockerfile*
+docker-compose*.yml
+.dockerignore*

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import * as XLSX from 'xlsx';
 import { UmaxRacePrediction } from './types';
-import { getTrackName } from './consts';
+import { getTrackName, compareTrackCode } from './consts';
 
 /**
  * UMAX予想データをExcelファイルに保存する関数
@@ -14,6 +14,11 @@ export function saveUmaxPredictionsToExcel(predictions: UmaxRacePrediction[], fi
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
   }
+
+  // TRACK_SORT_ORDERに基づいて競馬場コードでソート
+  const sortedPredictions = [...predictions].sort((a, b) => {
+    return compareTrackCode(a.trackCode, b.trackCode);
+  });
 
   // ヘッダー行の定義
   const headers = [
@@ -52,7 +57,7 @@ export function saveUmaxPredictionsToExcel(predictions: UmaxRacePrediction[], fi
   ];
 
   // データ行の作成
-  const rows = predictions.map(prediction => {
+  const rows = sortedPredictions.map(prediction => {
     const row: Record<string, any> = {
       "日付": `${prediction.date.substring(0, 4)}/${prediction.date.substring(4, 6)}/${prediction.date.substring(6, 8)}`,
       "会場": getTrackName(prediction.trackCode),

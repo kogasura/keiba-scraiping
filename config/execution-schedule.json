@@ -1,0 +1,8 @@
+{
+  "command": "npx ts-node src/v2/cli/main.ts",
+  "args": {
+    "api": "race-info",
+    "date": "20250719"
+  },
+  "log_path": "logs\\execution.log"
+}
